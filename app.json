@@ -1,0 +1,40 @@
+{
+    "pages": [
+        "pages/homePage/index",
+        "pages/clock/index",
+        "pages/my/index",
+        "pages/daily/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#99CCFF",
+        "navigationBarTitleText": "day",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "color": "white",
+        "selectedColor": "#99CCFF",
+        "backgroundColor": "yello",
+        "list": [
+            {
+            "pagePath": "pages/homePage/index",
+            "text": "首页",
+             "iconPath": "static/image/tab_icons/home.png",
+            "selectedIconPath": "static/image/tab_icons/homeClick.png"
+        },
+        {
+            "pagePath": "pages/clock/index",
+            "text": "打卡",
+            "iconPath": "static/image/tab_icons/clock.png",
+            "selectedIconPath": "static/image/tab_icons/clockTo.png"
+        },
+        {
+            "pagePath": "pages/my/index",
+            "text": "我的",
+            "iconPath": "static/image/tab_icons/my.png",
+            "selectedIconPath": "static/image/tab_icons/myClick.png"
+        }]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

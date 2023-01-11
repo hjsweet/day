@@ -1,0 +1,19 @@
+<!--pages/my/index.wxml-->
+<view class="userinfo">
+    <image src="../../static/image/tab_icons/myClick.png" class="my_head"></image>
+    <view> {{islogin?'小洛':'请登录'}}</view>
+    <text class="tip">{{tip_msg}}</text>
+</view>
+
+<view class="my_icon" >
+    <view wx:for="{{icon_list}}" wx:key="index" class="my_icon_list">
+    <image class="my_icon_img" src="{{item.image}}"></image>
+    {{item.label}}
+    </view>
+</view>
+
+<view class="my_contain">
+    <view class="contain_list" wx:for="{{list}}" wx:key="index" bindtap="btnClick" data-item='{{item}}'>
+        {{item.label}}
+    </view>
+</view>
