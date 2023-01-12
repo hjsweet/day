@@ -5,7 +5,7 @@ Page({
      * 页面的初始数据
      */
     data: {
-        msg:"小洛",
+        msg:"小洛22",
         islogin:true,
         tip_msg:"修改个人信息",
         image:"",
