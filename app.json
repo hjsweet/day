@@ -35,6 +35,8 @@
             "selectedIconPath": "static/image/tab_icons/myClick.png"
         }]
     },
-    "style": "v2",
+    "usingComponents": {
+        "van-button":"miniprogram_npm/vant-weapp/button/index"
+    },
     "sitemapLocation": "sitemap.json"
 }

@@ -16,4 +16,6 @@
     <view class="contain_list" wx:for="{{list}}" wx:key="index" bindtap="btnClick" data-item='{{item}}'>
         {{item.label}}
     </view>
+    
+<van-button plain type="info" >朴素按钮</van-button>
 </view>
